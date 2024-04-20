@@ -9,6 +9,10 @@
     "start": "webpack-dev-server --hot --open",
     "build": "webpack --config webpack.config.js --mode production"
   },
+  "engines": { 
+    "npm": ">=7.0.0",
+    "node": ">=18.10.10"
+  },
   "dependencies": {
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
